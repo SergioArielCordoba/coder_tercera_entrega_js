@@ -1,0 +1,117 @@
+*{
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+}
+
+.carrito{
+    width: 30px;
+    font-size: 3rem;
+    color: white;
+    cursor: pointer;
+}
+
+.mi-header{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    text-align: right;
+    padding: 20px;
+    display: grid;
+    
+}
+
+.mi-main{
+    padding: 10px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 50px;
+    justify-items: center;
+}
+
+.card{
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+}
+
+
+.img-product{
+    width: 300px;
+    border-radius: 10px;
+    transition: .5s;
+}
+.img-product:hover{
+    transform: scale(1.4)
+}
+
+.btn-comprar{
+    background-color: black;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    width: 80%;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+.btn-comprar:hover{
+    background-color: rgb(241, 11, 11);
+}
+
+.contenedor-img{
+    overflow: hidden;
+}
+
+/*estilos carrito.html*/
+
+
+.item-carrito{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen-carrito{
+    width: 150px;
+    object-fit: cover;
+}
+
+.icono-eliminar{
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.carrito-sin-productos{
+    text-align: center;
+}
+
+.disable{
+    display: none;
+}
+
+.mensaje-carrito-vacio{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+
+.totalAPagar{
+    display: flex;
+    gap: 100px;
+    justify-content:center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.linea-separadora{
+    margin-top: 30px;
+    width: 600px;
+    position: relative;
+    left: 35%
+}
